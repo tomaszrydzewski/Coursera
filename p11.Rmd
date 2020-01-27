@@ -1,0 +1,52 @@
+---
+title: "Cars Dataset "
+author: "T. Rydzewski"
+date: "27.01.2020"
+output:
+  slidy_presentation: default
+  html_document:
+    number_sections: yes
+    toc: yes
+  ioslides_presentation: default
+mode: selfcontained
+job: Reproducible Pitch Presentation
+subtitle: Variables and MPG
+highlighter: highlight.js
+widgets: bootstrap
+---
+
+## Coursera DEveloping Data Products - Week4 
+
+### Application  
+
+- Link to the Shiny App
+- URL: *https://tommr.shinyapps.io/ShinyAppWeek4/*
+
+### Pitch
+URL: *https://github.com/tomaszrydzewski/Coursera*
+
+---
+
+## Dataset Summary
+
+```{r}
+library(datasets)
+head(mtcars, 3)
+```
+
+---
+
+## Dataset Summary page 2
+
+```{r}
+library(datasets)
+summary(mtcars)
+```
+
+---
+
+## From the author 
+
+
+Thank you!
+
